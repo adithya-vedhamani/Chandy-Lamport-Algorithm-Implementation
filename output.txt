@@ -1,0 +1,52 @@
+PS C:\Users\ADITHYA VEDHAMANI> go run "c:\Users\ADITHYA VEDHAMANI\hello\hello.go"
+Enter the number of processes: 3
+Process 0 initial amount: $3862
+Process 1 initial amount: $4147
+Process 2 initial amount: $3428
+Total amount in the whole system: $11437
+Process 1 sent $41 to Process 2
+Process 0 sent $82 to Process 2
+Process 0 sent $83 to Process 1
+Process 1 sent $18 to Process 0
+Process 2 sent $3 to Process 0
+Process 1 sent $78 to Process 0
+Process 2 sent $97 to Process 1
+Process 2 sent $82 to Process 0
+Process 0 sent $60 to Process 2
+Process 0 sent $6 to Process 1
+Process 1 sent $22 to Process 0
+Process 1 sent $16 to Process 2
+Process 2 sent $27 to Process 0
+Process 2 sent $11 to Process 0
+Process 0 sent $11 to Process 2
+Process 1 sent $51 to Process 2
+Process 0 sent $32 to Process 2
+Process 1 sent $18 to Process 0
+Process 1 sent $4 to Process 2
+Process 0 sent $64 to Process 1
+Process 2 sent $46 to Process 0
+Process 1 sent $34 to Process 2
+Process 0 sent $57 to Process 1
+Process 0 sent $8 to Process 1
+Process 2 sent $33 to Process 1
+Process 1 sent $31 to Process 2
+Process 2 sent $57 to Process 1
+Process 0 sent $51 to Process 2
+Process 1 sent $88 to Process 0
+Process 1 sent $27 to Process 0
+Process 2 sent $2 to Process 0
+Process 1 sent $61 to Process 2
+
+Snapshots and Consistency Check:
+Snapshot for Process 0: [0 0 0]
+Is Snapshot Consistent for Process 0: true
+Total amount in snapshot for Process 0: $0
+Snapshot total does not match initial total for Process 0
+Snapshot for Process 1: [0 0 0]
+Is Snapshot Consistent for Process 1: true
+Total amount in snapshot for Process 1: $0
+Snapshot total does not match initial total for Process 1
+Snapshot for Process 2: [0 0 0]
+Is Snapshot Consistent for Process 2: true
+Total amount in snapshot for Process 2: $0
+Snapshot total does not match initial total for Process 2
